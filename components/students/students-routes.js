@@ -10,7 +10,7 @@
       $stateProvider
          .state('students', {
             url: '/estudiantes', // definimos el nombre de la url dependiendo del estado
-            templateUrl: 'components/students/students.html', // use 'students.html' como plantilla
+            templateUrl: 'components/students/students.html', // use 'people.html' como plantilla
             controller: 'StudentsController', // asignamos 'StudentsController' a la plantilla
             controllerAs: 'studentsCtrl' // alias de nuestro controlador
          });
